@@ -1,0 +1,33 @@
+{
+  "friends": [
+    {
+      "id": "blue",
+      "images": [
+        "assets/img/blue1.png",
+        "assets/img/blue2.png",
+        "assets/img/blue3.png",
+        "assets/img/blue4.png"
+      ],
+      "audios": [
+        "assets/audio/bluegrowl.mp3"
+      ]
+    },
+    {
+      "id": "fern",
+      "images": [
+        "assets/img/ferny1.jpeg",
+        "assets/img/ferny2.jpeg",
+        "assets/img/ferny3.jpeg",
+        "assets/img/ferny4.jpeg",
+        "assets/img/ferny5.jpeg",
+        "assets/img/ferny6.jpeg",
+        "assets/img/ferny7.jpeg",
+        "assets/img/ferny8.jpeg",
+        "assets/img/ferny9.jpeg"
+      ],
+      "audios": [
+        "assets/audio/bluegrowl.mp3"
+      ]
+    }
+  ]
+}
