@@ -27,7 +27,9 @@ function loadFriendData() {
 
     let audioUrl;
     for (audioUrl of selectedFriend["audios"]) {
-        friendAudios.push(new Audio(audioUrl));
+        let audio = new Audio(audioUrl);
+        audio.load();
+        friendAudios.push(audio);
     }
 
     imagesToLoad = selectedFriend["images"].length;
@@ -43,6 +45,8 @@ function loadFriendData() {
             }
         });
     }
+
+    $('#friendNameValue').text(selectedFriend["name"]);
 }
 
 function waitToShowPage() {
@@ -71,6 +75,7 @@ function showPage() {
         $('body').css('background-color', 'rgb(15,15,15)');
         $('#friend').animate({top: '50%'}, 1250, 'swing', function () {
             setTimeout(function () {
+                $('#friendName').css('opacity', 1);
             }, 500);
         });
     });
@@ -96,9 +101,15 @@ function refreshAvatar() {
     }
 }
 
+let growlAudio;
+
 function growl() {
-    let growlAudio = friendAudios[random(friendAudios.length - 1)];
-    if (growlAudio.paused) {
+    if (growlAudio === undefined || growlAudio.paused) {
+        let newGrowlAudio;
+        while (newGrowlAudio === undefined || (newGrowlAudio === growlAudio && friendAudios.length > 1)) {
+            newGrowlAudio = friendAudios[random(friendAudios.length - 1)];
+        }
+        growlAudio = newGrowlAudio;
         growlAudio.load();
         growlAudio.play();
     }

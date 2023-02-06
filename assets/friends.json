@@ -2,6 +2,7 @@
   "friends": [
     {
       "id": "blue",
+      "name": "Blue",
       "images": [
         "assets/img/blue1.png",
         "assets/img/blue2.png",
@@ -14,6 +15,7 @@
     },
     {
       "id": "fern",
+      "name": "Ferny",
       "images": [
         "assets/img/ferny1.jpeg",
         "assets/img/ferny2.jpeg",
@@ -26,7 +28,9 @@
         "assets/img/ferny9.jpeg"
       ],
       "audios": [
-        "assets/audio/bluegrowl.mp3"
+        "assets/audio/fernymoo.mp3",
+        "assets/audio/fernyyawn.mp3",
+        "assets/audio/fernysook.mp3"
       ]
     }
   ]

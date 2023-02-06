@@ -13,15 +13,29 @@ body {
     transition: background-color 2s ease;
 }
 
-#friend  {
-    width: 259px;
-    height: 259px;
+#friendName {
+    position: relative;
+    top: -5%;
+    width: 100%;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+#friendName h1,
+#friendName h3 {
+    display: block;
+    text-align: center;
+}
+
+#friend {
+    width: 512px;
+    height: 512px;
     visibility: visible;
     position: fixed;
     left: 50%;
     top: 150%;
-    margin-left: -131px;
-    margin-top: -131px;
+    margin-left: -256px;
+    margin-top: -256px;
 }
 
 #friend > img {
@@ -32,6 +46,10 @@ body {
     cursor: not-allowed;
     max-width: 256px;
     max-height: 256px;
+    left: 50%;
+    top: 150%;
+    margin-left: 128px;
+    margin-top: 128px;
 }
 
 #friend > img:hover {
@@ -39,11 +57,11 @@ body {
 }
 
 #refreshFriend {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 100px;
+    right: 100px;
     font-weight: bolder;
     cursor: pointer;
 }
