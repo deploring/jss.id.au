@@ -32,6 +32,25 @@
         "assets/audio/fernyyawn.mp3",
         "assets/audio/fernysook.mp3"
       ]
+    },
+    {
+      "id": "astro",
+      "name": "Astro, but you can call me boy",
+      "images": [
+        "assets/img/astro1.jpg",
+        "assets/img/astro2.jpg",
+        "assets/img/astro3.jpg",
+        "assets/img/astro4.jpg",
+        "assets/img/astro5.jpg",
+        "assets/img/astro6.jpg",
+        "assets/img/astro7.jpg",
+        "assets/img/astro8.jpg",
+        "assets/img/astro9.jpg",
+        "assets/img/astro10.jpg"
+      ],
+      "audios": [
+        "assets/audio/boysook.mp3"
+      ]
     }
   ]
 }
