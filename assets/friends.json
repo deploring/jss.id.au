@@ -51,6 +51,25 @@
       "audios": [
         "assets/audio/boysook.mp3"
       ]
+    },
+    {
+      "id": "doom",
+      "name": "Doom",
+      "images": [
+        "assets/img/doom1.jpg",
+        "assets/img/doom2.jpg",
+        "assets/img/doom3.jpg",
+        "assets/img/doom4.jpg",
+        "assets/img/doom5.jpg",
+        "assets/img/doom6.jpg",
+        "assets/img/doom7.jpg",
+        "assets/img/doom8.jpg"
+      ],
+      "audios": [
+        "assets/audio/doommeow1.mp3",
+        "assets/audio/doommeow2.mp3",
+        "assets/audio/doommeow3.mp3"
+      ]
     }
   ]
 }
